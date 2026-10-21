@@ -1,0 +1,153 @@
+{
+  "name": "wolfgang-skills",
+  "description": "Wolfgangs Content- und Marketing-Skills: eigene Skills plus Verweise auf die Original-Pakete (Video, Instagram, Marketing, Design, Text).",
+  "owner": {
+    "name": "Wolfgang Konrad"
+  },
+  "plugins": [
+    {
+      "name": "eigene-skills",
+      "description": "Eigene Skills: Autopilot, Reel Viral Playbook, Loopsystem, Podcast-Schnitt in Premiere Pro.",
+      "source": "./plugins/eigene-skills",
+      "category": "productivity"
+    },
+    {
+      "name": "hyperframes",
+      "description": "Video, Motion und Captions mit HyperFrames von HeyGen (hyperframes, core, cli, media-use, talking-head-recut, embedded-captions und mehr).",
+      "source": {
+        "source": "github",
+        "repo": "heygen-com/hyperframes"
+      },
+      "homepage": "https://github.com/heygen-com/hyperframes",
+      "category": "video"
+    },
+    {
+      "name": "instagram-agent",
+      "description": "13 Instagram-Skills: Reels, Karussells, Captions, Stories, Plan, Viral-Recherche, Audit, Profil, Kommentare, Antworten, DMs, Humanizer, Repurpose.",
+      "source": {
+        "source": "github",
+        "repo": "Jakeschincariol/instagram-agent-skill"
+      },
+      "homepage": "https://github.com/Jakeschincariol/instagram-agent-skill",
+      "category": "marketing"
+    },
+    {
+      "name": "agency-agents",
+      "description": "16 Marketing-Spezialisten aus The Agency: LinkedIn, Social, TikTok, Content, YouTube, Short-Video-Schnitt, Podcast, E-Mail, SEO, AEO, KI-Zitierungen, Agentic Search, PR, Buch-Co-Autor, Growth.",
+      "source": {
+        "source": "github",
+        "repo": "bestagentkits/agency-skills"
+      },
+      "strict": false,
+      "skills": [
+        "./skills/marketing/marketing-linkedin-content-creator",
+        "./skills/marketing/marketing-social-media-strategist",
+        "./skills/marketing/marketing-tiktok-strategist",
+        "./skills/marketing/marketing-content-creator",
+        "./skills/marketing/marketing-video-optimization-specialist",
+        "./skills/marketing/marketing-short-video-editing-coach",
+        "./skills/marketing/marketing-global-podcast-strategist",
+        "./skills/marketing/marketing-podcast-strategist",
+        "./skills/marketing/marketing-email-strategist",
+        "./skills/marketing/marketing-seo-specialist",
+        "./skills/marketing/marketing-aeo-foundations",
+        "./skills/marketing/marketing-ai-citation-strategist",
+        "./skills/marketing/marketing-agentic-search-optimizer",
+        "./skills/marketing/marketing-pr-communications-manager",
+        "./skills/marketing/marketing-book-co-author",
+        "./skills/marketing/marketing-growth-hacker"
+      ],
+      "homepage": "https://github.com/msitarzewski/agency-agents",
+      "category": "marketing"
+    },
+    {
+      "name": "taste-skill",
+      "description": "design-taste-frontend: Anti-Slop-Art-Direction für Landingpages, Portfolios, Dashboards und Redesigns.",
+      "source": {
+        "source": "github",
+        "repo": "Leonxlnx/taste-skill"
+      },
+      "strict": false,
+      "skills": [
+        "./skills/taste-skill"
+      ],
+      "homepage": "https://github.com/Leonxlnx/taste-skill",
+      "category": "design"
+    },
+    {
+      "name": "taste-skill-classics",
+      "description": "design-taste-frontend-v1 und industrial-brutalist-ui (Swiss Typografie trifft Military Terminal).",
+      "source": {
+        "source": "git-subdir",
+        "url": "Leonxlnx/taste-skill-classics",
+        "path": "skills"
+      },
+      "strict": false,
+      "skills": [
+        "./taste-skill-v1",
+        "./brutalist-skill"
+      ],
+      "homepage": "https://github.com/Leonxlnx/taste-skill-classics",
+      "category": "design"
+    },
+    {
+      "name": "brandkit",
+      "description": "Premium Brand-Kit-Bildgenerierung: Brand Guidelines Boards, Logo-Systeme, Identity Decks.",
+      "source": {
+        "source": "git-subdir",
+        "url": "Leonxlnx/imagegen-skills",
+        "path": "skills"
+      },
+      "strict": false,
+      "skills": [
+        "./brandkit"
+      ],
+      "homepage": "https://github.com/Leonxlnx/imagegen-skills",
+      "category": "design"
+    },
+    {
+      "name": "emil-design-eng",
+      "description": "Emil Kowalskis Philosophie für UI-Politur, Animationen und unsichtbare Details.",
+      "source": {
+        "source": "git-subdir",
+        "url": "emilkowalski/skill",
+        "path": "skills"
+      },
+      "strict": false,
+      "skills": [
+        "./emil-design-eng"
+      ],
+      "homepage": "https://github.com/emilkowalski/skill",
+      "category": "design"
+    },
+    {
+      "name": "humanizer",
+      "description": "Entfernt KI-Schreibspuren aus Texten, ohne den Inhalt zu verändern.",
+      "source": {
+        "source": "github",
+        "repo": "blader/humanizer"
+      },
+      "homepage": "https://github.com/blader/humanizer",
+      "category": "writing"
+    },
+    {
+      "name": "dokument-skills",
+      "description": "Anthropics Dokument-Skills für Claude Code: docx, pdf, pptx, xlsx und frontend-design. In der Claude App sind diese bereits eingebaut.",
+      "source": {
+        "source": "git-subdir",
+        "url": "anthropics/skills",
+        "path": "skills"
+      },
+      "strict": false,
+      "skills": [
+        "./docx",
+        "./pdf",
+        "./pptx",
+        "./xlsx",
+        "./frontend-design"
+      ],
+      "homepage": "https://github.com/anthropics/skills",
+      "category": "productivity"
+    }
+  ]
+}
