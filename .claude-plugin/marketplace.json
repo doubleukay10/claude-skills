@@ -121,6 +121,291 @@
       "category": "design"
     },
     {
+      "name": "animated-website",
+      "description": "Animierte Landingpage als eine einzige HTML-Datei: Scroll-Reveals, Parallax, Hover-States, Typo- und Farbsystem.",
+      "source": {
+        "source": "github",
+        "repo": "sva-admin/animated-website"
+      },
+      "strict": false,
+      "skills": [
+        "./"
+      ],
+      "homepage": "https://github.com/sva-admin/animated-website",
+      "category": "design"
+    },
+    {
+      "name": "humanizer",
+      "description": "Entfernt KI-Schreibspuren aus Texten, ohne den Inhalt zu verändern.",
+      "source": {
+        "source": "github",
+        "repo": "blader/humanizer"
+      },
+      "homepage": "https://github.com/blader/humanizer",
+      "category": "writing"
+    },
+    {
+      "name": "dokument-skills",
+      "description": "Anthropics Dokument-Skills für Claude Code: docx, pdf, pptx, xlsx und frontend-design. In der Claude App sind diese bereits eingebaut.",
+      "source": {
+        "source": "git-subdir",
+        "url": "anthropics/skills",
+        "path": "skills"
+      },
+      "strict": false,
+      "skills": [
+        "./docx",
+        "./pdf",
+        "./pptx",
+        "./xlsx",
+        "./frontend-design"
+      ],
+      "homepage": "https://github.com/anthropics/skills",
+      "category": "productivity"
+    },
+    {
+      "name": "agency-sales",
+      "description": "8 Sales-Skills aus The Agency: Coach, Discovery, Deal-Strategie, Pipeline, Angebote, Outbound, Lead-Gen, Account.",
+      "source": {
+        "source": "git-subdir",
+        "url": "bestagentkits/agency-skills",
+        "path": "skills/sales"
+      },
+      "strict": false,
+      "skills": [
+        "./sales-coach",
+        "./sales-discovery-coach",
+        "./sales-deal-strategist",
+        "./sales-pipeline-analyst",
+        "./sales-proposal-strategist",
+        "./sales-outbound-strategist",
+        "./sales-offer-lead-gen-strategist",
+        "./sales-account-strategist"
+      ],
+      "homepage": "https://github.com/msitarzewski/agency-agents",
+      "category": "sales"
+    },
+    {
+      "name": "agency-paid-media",
+      "description": "6 Paid-Media-Skills: Paid Social, PPC, Creatives, Suchbegriffe, Tracking, Ads-Audit.",
+      "source": {
+        "source": "git-subdir",
+        "url": "bestagentkits/agency-skills",
+        "path": "skills/paid-media"
+      },
+      "strict": false,
+      "skills": [
+        "./paid-media-paid-social-strategist",
+        "./paid-media-ppc-strategist",
+        "./paid-media-creative-strategist",
+        "./paid-media-search-query-analyst",
+        "./paid-media-tracking-specialist",
+        "./paid-media-auditor"
+      ],
+      "homepage": "https://github.com/msitarzewski/agency-agents",
+      "category": "marketing"
+    },
+    {
+      "name": "agency-projektmanagement",
+      "description": "6 Projektmanagement-Skills: Senior PM, Project Shepherd, Studio Producer, Studio Operations, Experiment Tracker, Meeting Notes.",
+      "source": {
+        "source": "git-subdir",
+        "url": "bestagentkits/agency-skills",
+        "path": "skills/project-management"
+      },
+      "strict": false,
+      "skills": [
+        "./project-manager-senior",
+        "./project-management-project-shepherd",
+        "./project-management-studio-producer",
+        "./project-management-studio-operations",
+        "./project-management-experiment-tracker",
+        "./project-management-meeting-notes-specialist"
+      ],
+      "homepage": "https://github.com/msitarzewski/agency-agents",
+      "category": "productivity"
+    },
+    {
+      "name": "ecc-dev-skills",
+      "description": "Everything Claude Code v1.10.0: 11 Entwicklungs-Skills (Backend, Frontend, Coding Standards, Security, TDD, ClickHouse, Verification, Evals, Continuous Learning, Strategic Compact, Projekt-Guidelines).",
+      "source": {
+        "source": "git-subdir",
+        "url": "affaan-m/everything-claude-code",
+        "path": "skills",
+        "ref": "v1.10.0"
+      },
+      "strict": false,
+      "skills": [
+        "./backend-patterns",
+        "./frontend-patterns",
+        "./coding-standards",
+        "./security-review",
+        "./tdd-workflow",
+        "./clickhouse-io",
+        "./verification-loop",
+        "./eval-harness",
+        "./continuous-learning",
+        "./strategic-compact",
+        "./project-guidelines-example"
+      ],
+      "homepage": "https://github.com/affaan-m/everything-claude-code",
+      "category": "development"
+    },
+    {
+      "name": "ecc-dev-commands",
+      "description": "Everything Claude Code v1.10.0: 15 Slash Commands (/plan, /tdd, /code-review, /build-fix, /eval, /setup-pm, /update-codemaps, /verify, /update-docs, /learn, /orchestrate, /e2e, /refactor-clean, /test-coverage, /checkpoint).",
+      "source": {
+        "source": "git-subdir",
+        "url": "affaan-m/everything-claude-code",
+        "path": "commands",
+        "ref": "v1.10.0"
+      },
+      "strict": false,
+      "commands": [
+        "./plan.md",
+        "./tdd.md",
+        "./code-review.md",
+        "./build-fix.md",
+        "./eval.md",
+        "./setup-pm.md",
+        "./update-codemaps.md",
+        "./verify.md",
+        "./update-docs.md",
+        "./learn.md",
+        "./orchestrate.md",
+        "./e2e.md",
+        "./refactor-clean.md",
+        "./test-coverage.md",
+        "./checkpoint.md"
+      ],
+      "homepage": "https://github.com/affaan-m/everything-claude-code",
+      "category": "development"
+    }
+  ]
+}
+{
+  "name": "wolfgang-skills",
+  "description": "Wolfgangs Content- und Marketing-Skills: eigene Skills plus Verweise auf die Original-Pakete (Video, Instagram, Marketing, Design, Text).",
+  "owner": {
+    "name": "Wolfgang Konrad"
+  },
+  "plugins": [
+    {
+      "name": "eigene-skills",
+      "description": "Eigene Skills: Autopilot, Reel Viral Playbook, Loopsystem, Podcast-Schnitt in Premiere Pro.",
+      "source": "./plugins/eigene-skills",
+      "category": "productivity"
+    },
+    {
+      "name": "hyperframes",
+      "description": "Video, Motion und Captions mit HyperFrames von HeyGen (hyperframes, core, cli, media-use, talking-head-recut, embedded-captions und mehr).",
+      "source": {
+        "source": "github",
+        "repo": "heygen-com/hyperframes"
+      },
+      "homepage": "https://github.com/heygen-com/hyperframes",
+      "category": "video"
+    },
+    {
+      "name": "instagram-agent",
+      "description": "13 Instagram-Skills: Reels, Karussells, Captions, Stories, Plan, Viral-Recherche, Audit, Profil, Kommentare, Antworten, DMs, Humanizer, Repurpose.",
+      "source": {
+        "source": "github",
+        "repo": "Jakeschincariol/instagram-agent-skill"
+      },
+      "homepage": "https://github.com/Jakeschincariol/instagram-agent-skill",
+      "category": "marketing"
+    },
+    {
+      "name": "agency-agents",
+      "description": "16 Marketing-Spezialisten aus The Agency: LinkedIn, Social, TikTok, Content, YouTube, Short-Video-Schnitt, Podcast, E-Mail, SEO, AEO, KI-Zitierungen, Agentic Search, PR, Buch-Co-Autor, Growth.",
+      "source": {
+        "source": "github",
+        "repo": "bestagentkits/agency-skills"
+      },
+      "strict": false,
+      "skills": [
+        "./skills/marketing/marketing-linkedin-content-creator",
+        "./skills/marketing/marketing-social-media-strategist",
+        "./skills/marketing/marketing-tiktok-strategist",
+        "./skills/marketing/marketing-content-creator",
+        "./skills/marketing/marketing-video-optimization-specialist",
+        "./skills/marketing/marketing-short-video-editing-coach",
+        "./skills/marketing/marketing-global-podcast-strategist",
+        "./skills/marketing/marketing-podcast-strategist",
+        "./skills/marketing/marketing-email-strategist",
+        "./skills/marketing/marketing-seo-specialist",
+        "./skills/marketing/marketing-aeo-foundations",
+        "./skills/marketing/marketing-ai-citation-strategist",
+        "./skills/marketing/marketing-agentic-search-optimizer",
+        "./skills/marketing/marketing-pr-communications-manager",
+        "./skills/marketing/marketing-book-co-author",
+        "./skills/marketing/marketing-growth-hacker"
+      ],
+      "homepage": "https://github.com/msitarzewski/agency-agents",
+      "category": "marketing"
+    },
+    {
+      "name": "taste-skill",
+      "description": "design-taste-frontend: Anti-Slop-Art-Direction für Landingpages, Portfolios, Dashboards und Redesigns.",
+      "source": {
+        "source": "github",
+        "repo": "Leonxlnx/taste-skill"
+      },
+      "strict": false,
+      "skills": [
+        "./skills/taste-skill"
+      ],
+      "homepage": "https://github.com/Leonxlnx/taste-skill",
+      "category": "design"
+    },
+    {
+      "name": "taste-skill-classics",
+      "description": "design-taste-frontend-v1 und industrial-brutalist-ui (Swiss Typografie trifft Military Terminal).",
+      "source": {
+        "source": "git-subdir",
+        "url": "Leonxlnx/taste-skill-classics",
+        "path": "skills"
+      },
+      "strict": false,
+      "skills": [
+        "./taste-skill-v1",
+        "./brutalist-skill"
+      ],
+      "homepage": "https://github.com/Leonxlnx/taste-skill-classics",
+      "category": "design"
+    },
+    {
+      "name": "brandkit",
+      "description": "Premium Brand-Kit-Bildgenerierung: Brand Guidelines Boards, Logo-Systeme, Identity Decks.",
+      "source": {
+        "source": "git-subdir",
+        "url": "Leonxlnx/imagegen-skills",
+        "path": "skills"
+      },
+      "strict": false,
+      "skills": [
+        "./brandkit"
+      ],
+      "homepage": "https://github.com/Leonxlnx/imagegen-skills",
+      "category": "design"
+    },
+    {
+      "name": "emil-design-eng",
+      "description": "Emil Kowalskis Philosophie für UI-Politur, Animationen und unsichtbare Details.",
+      "source": {
+        "source": "git-subdir",
+        "url": "emilkowalski/skill",
+        "path": "skills"
+      },
+      "strict": false,
+      "skills": [
+        "./emil-design-eng"
+      ],
+      "homepage": "https://github.com/emilkowalski/skill",
+      "category": "design"
+    },
+    {
       "name": "humanizer",
       "description": "Entfernt KI-Schreibspuren aus Texten, ohne den Inhalt zu verändern.",
       "source": {
