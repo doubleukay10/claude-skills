@@ -13,10 +13,11 @@
     },
     {
       "name": "hyperframes",
-      "description": "Video, Motion und Captions mit HyperFrames von HeyGen (hyperframes, core, cli, media-use, talking-head-recut, embedded-captions und mehr).",
+      "description": "Video, Motion und Captions mit HyperFrames von HeyGen, Version v0.8.184 (hyperframes, core, cli, media-use, talking-head-recut, embedded-captions und mehr).",
       "source": {
         "source": "github",
-        "repo": "heygen-com/hyperframes"
+        "repo": "heygen-com/hyperframes",
+        "ref": "v0.8.184"
       },
       "homepage": "https://github.com/heygen-com/hyperframes",
       "category": "video"
