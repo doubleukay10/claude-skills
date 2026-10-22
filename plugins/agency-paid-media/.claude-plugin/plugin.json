@@ -1,0 +1,9 @@
+{
+  "name": "agency-paid-media",
+  "version": "1.0.0",
+  "description": "6 Paid-Media-Skills aus The Agency.",
+  "author": {
+    "name": "Wolfgang Konrad"
+  },
+  "repository": "https://github.com/msitarzewski/agency-agents"
+}

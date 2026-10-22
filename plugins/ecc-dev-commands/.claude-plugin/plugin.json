@@ -1,0 +1,9 @@
+{
+  "name": "ecc-dev-commands",
+  "version": "1.10.0",
+  "description": "Everything Claude Code v1.10.0: 15 Slash Commands.",
+  "author": {
+    "name": "Wolfgang Konrad"
+  },
+  "repository": "https://github.com/affaan-m/everything-claude-code"
+}

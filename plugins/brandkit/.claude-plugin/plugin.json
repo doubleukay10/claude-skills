@@ -1,0 +1,9 @@
+{
+  "name": "brandkit",
+  "version": "1.0.0",
+  "description": "Premium Brand-Kit-Bildgenerierung.",
+  "author": {
+    "name": "Wolfgang Konrad"
+  },
+  "repository": "https://github.com/Leonxlnx/imagegen-skills"
+}

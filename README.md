@@ -1,6 +1,6 @@
 # Wolfgangs Claude Skills
 
-Ein Plugin-Marktplatz für Claude mit allen Skills aus Raphis Liste (126 Stück). Eigene Skills liegen direkt hier, alle anderen werden aus den Original-Repos geladen. Updates der Autoren kommen dadurch automatisch mit.
+Ein Plugin-Marktplatz für Claude mit allen Skills aus Raphis Liste (126 Stück). Die meisten Skills liegen als Kopie direkt in diesem Repo (unter `plugins/`, mit der Lizenz des Originals), weil die Claude App keine Verweise auf Unterordner oder feste Versionen anderer Repos lädt. instagram-agent, humanizer, taste-skill und animated-website werden direkt aus den Original-Repos geladen und aktualisieren sich automatisch. HyperFrames ist bewusst auf v0.8.184 eingefroren, weil spätere Versionen hyperframes-core, talking-head-recut und embedded-captions entfernt haben.
 
 ## Inhalt
 

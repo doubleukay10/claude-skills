@@ -1,0 +1,9 @@
+{
+  "name": "agency-agents",
+  "version": "1.0.0",
+  "description": "16 Marketing-Spezialisten aus The Agency.",
+  "author": {
+    "name": "Wolfgang Konrad"
+  },
+  "repository": "https://github.com/msitarzewski/agency-agents"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "ecc-dev-skills",
+  "version": "1.10.0",
+  "description": "Everything Claude Code v1.10.0: 11 Entwicklungs-Skills.",
+  "author": {
+    "name": "Wolfgang Konrad"
+  },
+  "repository": "https://github.com/affaan-m/everything-claude-code"
+}

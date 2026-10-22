@@ -14,11 +14,7 @@
     {
       "name": "hyperframes",
       "description": "Video, Motion und Captions mit HyperFrames von HeyGen, Version v0.8.184 (hyperframes, core, cli, media-use, talking-head-recut, embedded-captions und mehr).",
-      "source": {
-        "source": "github",
-        "repo": "heygen-com/hyperframes",
-        "ref": "v0.8.184"
-      },
+      "source": "./plugins/hyperframes",
       "homepage": "https://github.com/heygen-com/hyperframes",
       "category": "video"
     },
@@ -35,29 +31,7 @@
     {
       "name": "agency-agents",
       "description": "16 Marketing-Spezialisten aus The Agency: LinkedIn, Social, TikTok, Content, YouTube, Short-Video-Schnitt, Podcast, E-Mail, SEO, AEO, KI-Zitierungen, Agentic Search, PR, Buch-Co-Autor, Growth.",
-      "source": {
-        "source": "github",
-        "repo": "bestagentkits/agency-skills"
-      },
-      "strict": false,
-      "skills": [
-        "./skills/marketing/marketing-linkedin-content-creator",
-        "./skills/marketing/marketing-social-media-strategist",
-        "./skills/marketing/marketing-tiktok-strategist",
-        "./skills/marketing/marketing-content-creator",
-        "./skills/marketing/marketing-video-optimization-specialist",
-        "./skills/marketing/marketing-short-video-editing-coach",
-        "./skills/marketing/marketing-global-podcast-strategist",
-        "./skills/marketing/marketing-podcast-strategist",
-        "./skills/marketing/marketing-email-strategist",
-        "./skills/marketing/marketing-seo-specialist",
-        "./skills/marketing/marketing-aeo-foundations",
-        "./skills/marketing/marketing-ai-citation-strategist",
-        "./skills/marketing/marketing-agentic-search-optimizer",
-        "./skills/marketing/marketing-pr-communications-manager",
-        "./skills/marketing/marketing-book-co-author",
-        "./skills/marketing/marketing-growth-hacker"
-      ],
+      "source": "./plugins/agency-agents",
       "homepage": "https://github.com/msitarzewski/agency-agents",
       "category": "marketing"
     },
@@ -78,46 +52,21 @@
     {
       "name": "taste-skill-classics",
       "description": "design-taste-frontend-v1 und industrial-brutalist-ui (Swiss Typografie trifft Military Terminal).",
-      "source": {
-        "source": "git-subdir",
-        "url": "Leonxlnx/taste-skill-classics",
-        "path": "skills"
-      },
-      "strict": false,
-      "skills": [
-        "./taste-skill-v1",
-        "./brutalist-skill"
-      ],
+      "source": "./plugins/taste-skill-classics",
       "homepage": "https://github.com/Leonxlnx/taste-skill-classics",
       "category": "design"
     },
     {
       "name": "brandkit",
       "description": "Premium Brand-Kit-Bildgenerierung: Brand Guidelines Boards, Logo-Systeme, Identity Decks.",
-      "source": {
-        "source": "git-subdir",
-        "url": "Leonxlnx/imagegen-skills",
-        "path": "skills"
-      },
-      "strict": false,
-      "skills": [
-        "./brandkit"
-      ],
+      "source": "./plugins/brandkit",
       "homepage": "https://github.com/Leonxlnx/imagegen-skills",
       "category": "design"
     },
     {
       "name": "emil-design-eng",
       "description": "Emil Kowalskis Philosophie für UI-Politur, Animationen und unsichtbare Details.",
-      "source": {
-        "source": "git-subdir",
-        "url": "emilkowalski/skill",
-        "path": "skills"
-      },
-      "strict": false,
-      "skills": [
-        "./emil-design-eng"
-      ],
+      "source": "./plugins/emil-design-eng",
       "homepage": "https://github.com/emilkowalski/skill",
       "category": "design"
     },
@@ -167,118 +116,35 @@
     {
       "name": "agency-sales",
       "description": "8 Sales-Skills aus The Agency: Coach, Discovery, Deal-Strategie, Pipeline, Angebote, Outbound, Lead-Gen, Account.",
-      "source": {
-        "source": "git-subdir",
-        "url": "bestagentkits/agency-skills",
-        "path": "skills/sales"
-      },
-      "strict": false,
-      "skills": [
-        "./sales-coach",
-        "./sales-discovery-coach",
-        "./sales-deal-strategist",
-        "./sales-pipeline-analyst",
-        "./sales-proposal-strategist",
-        "./sales-outbound-strategist",
-        "./sales-offer-lead-gen-strategist",
-        "./sales-account-strategist"
-      ],
+      "source": "./plugins/agency-sales",
       "homepage": "https://github.com/msitarzewski/agency-agents",
       "category": "sales"
     },
     {
       "name": "agency-paid-media",
       "description": "6 Paid-Media-Skills: Paid Social, PPC, Creatives, Suchbegriffe, Tracking, Ads-Audit.",
-      "source": {
-        "source": "git-subdir",
-        "url": "bestagentkits/agency-skills",
-        "path": "skills/paid-media"
-      },
-      "strict": false,
-      "skills": [
-        "./paid-media-paid-social-strategist",
-        "./paid-media-ppc-strategist",
-        "./paid-media-creative-strategist",
-        "./paid-media-search-query-analyst",
-        "./paid-media-tracking-specialist",
-        "./paid-media-auditor"
-      ],
+      "source": "./plugins/agency-paid-media",
       "homepage": "https://github.com/msitarzewski/agency-agents",
       "category": "marketing"
     },
     {
       "name": "agency-projektmanagement",
       "description": "6 Projektmanagement-Skills: Senior PM, Project Shepherd, Studio Producer, Studio Operations, Experiment Tracker, Meeting Notes.",
-      "source": {
-        "source": "git-subdir",
-        "url": "bestagentkits/agency-skills",
-        "path": "skills/project-management"
-      },
-      "strict": false,
-      "skills": [
-        "./project-manager-senior",
-        "./project-management-project-shepherd",
-        "./project-management-studio-producer",
-        "./project-management-studio-operations",
-        "./project-management-experiment-tracker",
-        "./project-management-meeting-notes-specialist"
-      ],
+      "source": "./plugins/agency-projektmanagement",
       "homepage": "https://github.com/msitarzewski/agency-agents",
       "category": "productivity"
     },
     {
       "name": "ecc-dev-skills",
       "description": "Everything Claude Code v1.10.0: 11 Entwicklungs-Skills (Backend, Frontend, Coding Standards, Security, TDD, ClickHouse, Verification, Evals, Continuous Learning, Strategic Compact, Projekt-Guidelines).",
-      "source": {
-        "source": "git-subdir",
-        "url": "affaan-m/everything-claude-code",
-        "path": "skills",
-        "ref": "v1.10.0"
-      },
-      "strict": false,
-      "skills": [
-        "./backend-patterns",
-        "./frontend-patterns",
-        "./coding-standards",
-        "./security-review",
-        "./tdd-workflow",
-        "./clickhouse-io",
-        "./verification-loop",
-        "./eval-harness",
-        "./continuous-learning",
-        "./strategic-compact",
-        "./project-guidelines-example"
-      ],
+      "source": "./plugins/ecc-dev-skills",
       "homepage": "https://github.com/affaan-m/everything-claude-code",
       "category": "development"
     },
     {
       "name": "ecc-dev-commands",
       "description": "Everything Claude Code v1.10.0: 15 Slash Commands (/plan, /tdd, /code-review, /build-fix, /eval, /setup-pm, /update-codemaps, /verify, /update-docs, /learn, /orchestrate, /e2e, /refactor-clean, /test-coverage, /checkpoint).",
-      "source": {
-        "source": "git-subdir",
-        "url": "affaan-m/everything-claude-code",
-        "path": "commands",
-        "ref": "v1.10.0"
-      },
-      "strict": false,
-      "commands": [
-        "./plan.md",
-        "./tdd.md",
-        "./code-review.md",
-        "./build-fix.md",
-        "./eval.md",
-        "./setup-pm.md",
-        "./update-codemaps.md",
-        "./verify.md",
-        "./update-docs.md",
-        "./learn.md",
-        "./orchestrate.md",
-        "./e2e.md",
-        "./refactor-clean.md",
-        "./test-coverage.md",
-        "./checkpoint.md"
-      ],
+      "source": "./plugins/ecc-dev-commands",
       "homepage": "https://github.com/affaan-m/everything-claude-code",
       "category": "development"
     }
