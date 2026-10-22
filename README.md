@@ -1,6 +1,6 @@
 # Wolfgangs Claude Skills
 
-Ein Plugin-Marktplatz für Claude mit allen Content- und Marketing-Skills. Eigene Skills liegen direkt hier, alle anderen werden aus den Original-Repos geladen. Updates der Autoren kommen dadurch automatisch mit.
+Ein Plugin-Marktplatz für Claude mit allen Skills aus Raphis Liste (126 Stück). Eigene Skills liegen direkt hier, alle anderen werden aus den Original-Repos geladen. Updates der Autoren kommen dadurch automatisch mit.
 
 ## Inhalt
 
@@ -14,7 +14,13 @@ Ein Plugin-Marktplatz für Claude mit allen Content- und Marketing-Skills. Eigen
 | `taste-skill-classics` | design-taste-frontend-v1, industrial-brutalist-ui | [Leonxlnx/taste-skill-classics](https://github.com/Leonxlnx/taste-skill-classics) |
 | `brandkit` | brandkit | [Leonxlnx/imagegen-skills](https://github.com/Leonxlnx/imagegen-skills) |
 | `emil-design-eng` | emil-design-eng | [emilkowalski/skill](https://github.com/emilkowalski/skill) |
+| `animated-website` | animated-website | [sva-admin/animated-website](https://github.com/sva-admin/animated-website) |
 | `humanizer` | humanizer | [blader/humanizer](https://github.com/blader/humanizer) |
+| `agency-sales` | 8 Sales-Skills | [bestagentkits/agency-skills](https://github.com/bestagentkits/agency-skills) |
+| `agency-paid-media` | 6 Paid-Media-Skills | [bestagentkits/agency-skills](https://github.com/bestagentkits/agency-skills) |
+| `agency-projektmanagement` | 6 Projektmanagement-Skills | [bestagentkits/agency-skills](https://github.com/bestagentkits/agency-skills) |
+| `ecc-dev-skills` | 11 Entwicklungs-Skills (Everything Claude Code v1.10.0) | [affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code) |
+| `ecc-dev-commands` | 15 Slash Commands (/plan, /tdd, /verify und weitere) | [affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code) |
 | `dokument-skills` | docx, pdf, pptx, xlsx, frontend-design (nur für Claude Code nötig, in der App eingebaut) | [anthropics/skills](https://github.com/anthropics/skills) |
 
 ## Installation
@@ -41,17 +47,20 @@ claude plugin install taste-skill-classics@wolfgang-skills
 claude plugin install brandkit@wolfgang-skills
 claude plugin install emil-design-eng@wolfgang-skills
 claude plugin install humanizer@wolfgang-skills
+claude plugin install animated-website@wolfgang-skills
+claude plugin install agency-sales@wolfgang-skills
+claude plugin install agency-paid-media@wolfgang-skills
+claude plugin install agency-projektmanagement@wolfgang-skills
+claude plugin install ecc-dev-skills@wolfgang-skills
+claude plugin install ecc-dev-commands@wolfgang-skills
 claude plugin install dokument-skills@wolfgang-skills
 ```
 
 Aktualisieren: `claude plugin marketplace update wolfgang-skills`
 
-Das Repo ist privat. Claude Code braucht dafür Git-Zugriff auf GitHub auf dem jeweiligen Gerät (z. B. einmal `gh auth login` ausführen).
-
 ## Nicht enthalten
 
-- **animated-website**: kein öffentliches Repo gefunden.
-- **Adobe-Skills**: laufen über Adobes eigene Claude-Integration (Connector), nicht über GitHub.
+- **Adobe-Skills** (6) und **Plugin Management** (cowork-plugin-customizer, create-cowork-plugin): direkt im Anthropic-Verzeichnis unter Anpassen → Plugins installieren.
 - **Claude Standard-Skills** (docs, deep-research, skill-creator, Browser, Computer use usw.): sind in der Claude App bereits eingebaut.
 
 ## Eigene Skills ändern
